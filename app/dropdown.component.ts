@@ -43,7 +43,7 @@ export class DropdownComponent implements OnInit {
 
   @Input() userData: {fruitSelection:any, colorSelection:any};
 
-  private dropdownOptions: { fruit: Array<string> } = { fruit: null };
+  private dropdownOptions: { fruit: Array<string> } = { fruit: ['x','y','z'] };
 
   constructor(private data: DataService) { }
 
